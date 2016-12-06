@@ -1,0 +1,25 @@
+package PackageEmployee;
+
+public class TemporaryEmp extends Employee{
+	
+	@Override
+	boolean avail_leave(int no_of_leaves, char type_of_leave) {
+		if(no_of_leaves==25)
+			return true;
+		else
+		return false;
+	}
+
+	@Override
+	void calculate_balance_leaves() {
+
+		
+	}
+
+	@Override
+	void calculate_salary() {
+
+		
+	}
+
+}

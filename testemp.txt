@@ -1,0 +1,17 @@
+package PackageEmployee;
+
+public class testemployee {
+	
+	public static void main(String[] args) {
+		PermanentEmp p = new PermanentEmp();
+		p.calculate_salary();
+		
+		PermanentEmp p1= new PermanentEmp();
+		p1.calculate_balance_leaves();
+		
+		TemporaryEmp t= new TemporaryEmp();
+		t.avail_leave(21, 'P');
+	
+	}
+
+}
